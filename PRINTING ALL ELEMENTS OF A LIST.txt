@@ -1,0 +1,11 @@
+printlist([]).
+printlist([X|List]) :- write(X),nl, printlist(List).
+
+OUTPUT:
+1
+2
+3
+4
+true
+
+Printlist(1,2,3,4)
